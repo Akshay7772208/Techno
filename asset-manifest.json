@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Techno/static/css/main.33b2db76.css",
-    "main.js": "/Techno/static/js/main.b738bd2b.js",
+    "main.js": "/Techno/static/js/main.39fcd5e7.js",
     "static/media/slick.svg": "/Techno/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Techno/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Techno/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Techno/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Techno/index.html",
     "main.33b2db76.css.map": "/Techno/static/css/main.33b2db76.css.map",
-    "main.b738bd2b.js.map": "/Techno/static/js/main.b738bd2b.js.map"
+    "main.39fcd5e7.js.map": "/Techno/static/js/main.39fcd5e7.js.map"
   },
   "entrypoints": [
     "static/css/main.33b2db76.css",
-    "static/js/main.b738bd2b.js"
+    "static/js/main.39fcd5e7.js"
   ]
 }
