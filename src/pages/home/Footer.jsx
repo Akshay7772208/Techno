@@ -90,22 +90,22 @@ const Footer = () => {
             <div className="fw-link">
               <ul>
                 <li>
-                  <a href='#ad'>
+                  <a href='/terms'>
                     Terms and Conditions
                   </a>
                 </li>
                 <li>
-                  <a href='#ad' to='/privacy'>
+                  <a href='/privacy' >
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href='#ad'>
+                  <a href='/refund'>
                     Refund Policy
                   </a>
                 </li>
                 <li>
-                  <a href='#ads'>Support</a>
+                  <a href='/support'>Support</a>
                 </li>
               </ul>
             </div>
