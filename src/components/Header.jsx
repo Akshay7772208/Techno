@@ -27,7 +27,7 @@ const Header = () => {
             <div className="logo"><a href="https://www.technobridge.in/" className="logo" aria-label="Logo"><img src="https://www.technobridge.in/assets/images/technologo.webp" alt="Technobridge" aria-label="Logo" height="70px"/></a>
             </div>
             <ul className="navmenud">
-                <li className="navitem"><a href="https://www.technobridge.in/">Home</a></li>
+                <li className="navitem"><a href="/">Home</a></li>
                 <li className="navitem">
                     <a href="#s" className="dropicon">
                         Services
@@ -87,9 +87,9 @@ const Header = () => {
                         
                     </ul>
                 </li>
-                <li className="navitem"><a to='/about'>About Us </a> </li>
-                <li className="navitem"><a >Contact </a> </li>
-                <li className="navitem"><a >Register </a> </li>
+                <li className="navitem"><a href='/about'>About Us </a> </li>
+                <li className="navitem"><a href='/contact'>Contact </a> </li>
+                <li className="navitem"><a href='/register'>Register </a> </li>
             </ul>
         </div>
     </div>
