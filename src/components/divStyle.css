@@ -1,0 +1,22 @@
+.benefits-div,
+.payment-div,
+.about-us-div,
+.address-div,
+.quick-links-div,
+.popular-courses-div,
+.copyright-div {
+  margin-top: 40px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.custom-list {
+  list-style: none;
+}
+
+.custom-list li {
+  margin-bottom: 20px;
+}

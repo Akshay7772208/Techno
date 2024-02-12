@@ -1,0 +1,99 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .main-container {
+    display: flex;
+  }
+  
+  .info-container {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .info-container h2 {
+    color: #333;
+  }
+  
+  .info-container p {
+    color: #666;
+    line-height: 1.6;
+  }
+  /*
+  .enquire-form-container {
+    width: 20%;
+    position: fixed;
+    top: 150px; 
+    right:10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+  }
+  
+  .enquire-form-container h3 {
+    color: #333;
+  }
+  
+  .enquire-form-container form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+  .enquire-form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .enquire-form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .enquire-form-container button {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+*/
+  h2{
+    text-align: center;
+    color: aqua;
+  }
+  
+  /* Add more styles as needed */
+
+  .img-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 170px;
+    background-color: skyblue;
+    width: 100%;
+    padding-left: 30px;
+  }
+  
+  .inner-cont{
+    display: flex;
+    gap: 20px;
+    height: 20px;
+  }
+
+  .styled-button {
+        background-color: orangered; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+}
+  

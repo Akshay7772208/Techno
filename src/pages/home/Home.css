@@ -1,0 +1,1064 @@
+body {
+    overflow-x: hidden;
+    font-family: Poppins, sans-serif
+}
+
+.hero {
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    background-position: center center;
+    background-size: 100% 92%
+}
+
+.infosection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    justify-content: center;
+}
+
+.banner {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px
+}
+
+.infosection h1 {
+    font-size: 24px;
+    color: var(--textprimary);
+    font-weight: 600
+}
+
+.guaranteed span {
+    font-size: 12px;
+    line-height: 25px;
+    background: linear-gradient(90deg, red 0, #1179ef00 98.24%);
+    letter-spacing: 1px;
+    font-weight: 500;
+    display: inline-block;
+    color: #fff;
+    padding: 3px 10px
+}
+
+.rank {
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 10px;
+    position: relative;
+    opacity: .9
+}
+
+.rank::before {
+    content: "";
+    background: var(--textprimary);
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 2px;
+    height: 70%
+}
+
+.landing_banner_txt {
+    display: flex;
+    width: 100%;
+    flex-direction: column
+}
+
+.landing_banner_txt p {
+    color: #000;
+    font-size: 16px;
+    padding: 0 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px
+}
+
+.landing_banner_txt p::before {
+    content:url("https://www.technobridge.in/assets/icons/new-icon/checklist.svg");
+    margin-right: 10px;
+}
+
+.starratings {
+    color: #ffb607;
+    display:flex;
+    gap:5px;
+}
+
+
+
+.ctabtn a:hover {
+    background-color: transparent;
+    color: #ffb607;
+    border: 2px solid #ffb607
+}
+
+.ctabtn {
+    display: flex;
+    gap: 50px
+}
+
+.count {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 12px 6px rgb(0 0 0 / 18%);
+    padding: 24px 35px 22px !important;
+    margin-top: 20px;
+    text-align: center
+}
+
+.countrow {
+    gap: 10px;
+    flex-direction: column
+}
+
+.countrow h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    letter-spacing: 0;
+    line-height: 24px;
+    color: #061e91
+}
+
+.countrow {
+    margin-bottom: 0 !important;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500
+}
+
+.main {
+    width: 100%;
+    margin: auto
+}
+
+.menulist {
+    margin: auto
+}
+
+.menulist {
+    position: sticky;
+    top: 110px;
+    margin-top: 10px;
+    width: 90%;
+    margin: auto
+}
+
+.menuitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.menuitem a {
+    color: #353535;
+    font-size: 15px;
+    padding: 10px 5px;
+    display: inline-flex;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: .3px;
+    width: 100%;
+    align-items: center
+}
+
+.menuitem a i {
+    position: absolute;
+    right: 10%;
+    color: #ffb607
+}
+
+.menuitem:hover {
+    background-color: #ff6d00
+}
+
+.menuitem a:hover {
+    color: #fff
+}
+
+.menuitem:hover i {
+    color: #fff
+}
+
+.menulist li {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    box-shadow: 0 4px 5px 0 rgb(167 167 167 / 75%);
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #fbfbfb
+}
+
+.menuitem a::before {
+    content: url(https://www.technobridge.in/assets/icons/new-icon/right.svg);
+    display: flex;
+    margin-right: 10px;
+    font-weight: 400
+}
+
+.mainwrapper .active a {
+    color: #fff;
+    background: #157ac3;
+    transition: all .6s
+}
+
+.mainwrapper .active a i {
+    color: #fff
+}
+
+.menulist .activenav {
+    background-color: #0093d8;
+    color: #fff
+}
+
+.menulist .activenav a,
+.menulist .activenav i {
+    color: #fff
+}
+
+.btmborder {
+    width: 15%;
+    height: 5px;
+    color: #061e91;
+    background-color: #ffb607;
+    margin: 5px auto 20px auto;
+}
+
+.rightsection {
+    padding: .5rem 0rem 0 0
+}
+
+.rightsection p {
+    text-align: justify;
+    font-size:16px;
+    line-height:1.5;
+}
+
+.rightsection h2 {
+    text-align: center;
+    color: var(--textprimary);
+    font-size: 24px
+}
+
+
+
+.key ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-evenly;
+    height: 100%
+}
+
+.enquirysection {
+    box-shadow: 0 2px 12px 6px rgb(0 0 0 / 18%);
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    padding-bottom: 10px;
+    background: #fff
+}
+
+.main .ricol-6 .enquirysection {
+    width: 90%
+}
+
+.enquirysection .formtitle {
+    background-color: #061e91;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: none;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 10px
+}
+
+.formfield {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    margin-bottom: 5px;
+    gap: 3px
+}
+
+.formfield label {
+    font-size: 13px;
+    padding: 0 15px
+}
+
+.formfield input {
+    box-shadow: none !important;
+    outline: 0 !important;
+    padding: 5px 15px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px
+}
+
+input {
+    background: #f8f8f8
+}
+
+input:focus {
+    background: #fff;
+    border: 1px solid #e2e2e2
+}
+
+.submit {
+    cursor: pointer;
+    width: 50%;
+    margin: auto;
+    background-color: #ffb607;
+    color: #000;
+    margin-top:5px;
+    padding: .5rem;
+    border-radius: 5px;
+    padding:6px 15px !important;
+}
+
+.col-1-list li::before,
+.list li::before {
+  content:url("https://www.technobridge.in/assets/icons/new-icon/checklist.svg");
+    margin-right: 10px;
+   
+}
+.head-list{
+    display:flex;
+    align-items:center;
+}
+.head-list::before{
+    content:url("https://www.technobridge.in/assets/icons/new-icon/right.svg");
+    margin-right: 10px;
+    display: table-cell;
+    width: 20px;
+}
+.lists li {
+    display: flex;
+}
+
+.list li,
+.col-1-list li {
+    display: table;
+    align-items: center;
+    border-spacing: 5px;
+}
+
+.lists li::before {
+    content: "\f061";
+    font-family: fontawesome;
+    font-size: 13px;
+    margin-right: 15px;
+    color: #0093d8;
+    align-items: center;
+    display: table-cell;
+}
+
+.certification .textcontainer .ricol-4 {
+    margin-left: 15px;
+}
+
+.lists li {
+    list-style: none;
+}
+
+.certification .ricol-12 .lists,
+.syllabus .lists {
+    list-style: disc;
+    list-style-position: inside
+}
+
+.certification .ricol-12 .lists li,
+.syllabus .lists li {
+    margin-top: 15px
+}
+
+.content ul li,
+.trainer ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 10px
+}
+
+.trainer ul li {
+    font-weight: 500
+}
+
+.container .content ul li::before,
+.trainer ul li::before {
+   content:url("https://www.technobridge.in/assets/icons/new-icon/checklist.svg") !important;
+    margin-right: 10px;
+    display:table-cell;
+}
+
+.container1 .content ul li::before,
+.trainer ul li::before {
+    content:url("https://www.technobridge.in/assets/icons/new-icon/checklist.svg") !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #0093d8;
+    display: flex;
+    overflow: visible;
+    align-items: center;
+    display:table-cell;
+}
+
+.accordian {
+    gap: 10px
+}
+
+.container {
+    width: 95%;
+    margin: auto
+}
+
+.label {
+    font-weight: 500;
+    border: 1px solid #0093d8;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: 0s;
+    color: #395b64;
+}
+
+.active .label,
+.label:hover {
+    background-color: #0093d8;
+    color: #fff
+}
+
+.label::after {
+content: url(https://www.technobridge.in/assets/icons/new-icon/f-down.svg);
+    display: block;
+    margin-left: 10px;
+}
+
+.active .label::after {
+    content: "\f077";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900
+}
+
+.container .content .hide {
+    display: none
+}
+
+.active .content {
+    border: 1px solid #0093d8;
+    border-radius: 5px;
+    border-top: none
+}
+
+.container .content .active {
+    display: block
+}
+
+.container .content {
+    position: relative;
+    background: #fff;
+    height: 0;
+    font-size: 14px;
+    text-align: justify;
+    width: 100%;
+    overflow: hidden;
+    transition: .5s;
+    padding: 0 .5rem
+}
+
+.container {
+    margin-top: 15px
+}
+
+.container.active .content {
+    height: auto
+}
+
+.downloadbtn {
+    width: 100%;
+    margin: 10px auto;
+    justify-content: center
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+
+.career .textcontainer .ricol-6 li::before,
+.sector .textcontainer .ricol-6 li::before {
+    content:url("https://www.technobridge.in/assets/icons/new-icon/checklist.svg");
+    margin-right: 10px;
+}
+
+.career .textcontainer .ricol-6 li,
+.sector .textcontainer .ricol-6 li {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    margin-top: 10px
+}
+
+.career .textcontainer {
+    margin: 10px 0
+}
+
+.enroll {
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.hidedesktop {
+    display: none
+}
+
+.hidemobile {
+    padding: .5rem 0;
+    display: block
+}
+
+.hidedesktop .rightsection .formsection {
+    max-width: 100% !important
+}
+
+.faq p {
+    padding: .5rem;
+    font-size: 16px
+}
+
+.faqswrap {
+    background-color: #f8f8f8;
+    /*padding: .5rem 0*/
+}
+
+.faq .label {
+    border: none;
+    color: black !important;
+}
+
+.fees table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto
+}
+
+.fees table td,
+.fees table th {
+    border: 1px solid #000;
+    padding: .5rem .5rem
+}
+
+.fees table th {
+    background-color: #ffb607;
+    color: #000
+}
+
+.placecard {
+    gap: 10px
+}
+
+.card img {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto
+}
+
+.card h3 {
+    font-size: 16px;
+    min-height: 50px;
+    line-height: 22px;
+    margin: 10px 0;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.card {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: -2px 4px 5px 0 rgb(0 0 0 / 75%);
+    -moz-box-shadow: -2px 4px 5px 0 rgba(0, 0, 0, .75);
+    box-shadow: 0 2px 5px 0 rgb(189 189 189 / 75%);
+    transition: all .6s
+}
+
+section:not(:first-type) {
+    margin: 20px 0
+}
+
+.swiper {
+    width: 100%;
+    
+}
+
+.reviewbox {
+    width: 80%;
+    margin: auto
+}
+
+.reviewbox .name {
+    text-align: center;
+    padding: .5rem 0
+}
+
+.reviewbox span {
+    display: block;
+    text-align: center
+}
+
+.hidemob {
+    display: flex
+}
+
+.mainwrapper {
+    padding: 0 1rem
+}
+
+.col-2-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.desc {
+    margin-bottom: 10px;
+}
+
+.rightsection h2 strong {
+    margin: 10px 0;
+    display: block;
+}
+
+/*head-list-1 head-list-small*/
+.head-list,
+.head-title,
+.head-list-1 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    display:table;
+}
+.list1{
+    text-align:justify
+}
+.head-list-1{
+    display:table;
+    font-weight:400;
+    font-size:16px;
+}
+.bullet-list {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+.ctabtn a {
+    background-color: #ffb607;
+    color: #061e91;
+    padding: 10px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    border: 2px solid #ffb607;
+    font-weight: 500;
+    transition: all .3s;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 20%);
+    display: inline-block;
+    margin-right: 15px
+}
+.btn{
+    padding: 8px 30px!important;
+    
+}
+.blogwrapper .mainwrapper {
+    grid-gap:25px;
+}
+.blogwrapper .rightsection{
+    margin:0;
+}
+.mt-10{
+    margin-top:20px;
+}
+@media (max-width:760px) {
+    .tearmscontainer .fees table td, .fees table th {
+    border: 1px solid #000;
+    padding: 0.5rem 0.1rem;
+}
+    .blogwrapper .enquirysection{
+        margin-top:0;
+    }
+    .m-10{
+    margin:15px 0;
+}
+    .rightsection {
+        margin-top: -25px;
+    }
+
+    .col-2-list {
+        grid-template-columns: 1fr;
+    }
+
+    .ctabtn {
+        justify-content: center;
+    }
+
+    .hero {
+        background-size: auto
+    }
+
+    .hidemobile {
+        display: none
+    }
+
+    .hidemob {
+        display: none
+    }
+
+    .enquirysection {
+        width: 100%
+    }
+
+    .rightsection h2 {
+        font-size: 20px
+    }
+
+    section:not(:first-type) {
+        margin: 10px 0
+    }
+
+    .ricol-3 {
+        grid-column: auto/span 6
+    }
+
+    .card {
+        width: 100%;
+        margin: 0 0
+    }
+
+    .ctabtn a {
+        margin-right: 0
+    }
+
+    .accordian {
+        gap: 0
+    }
+
+    .hidedesktop {
+        /*padding: 1rem 0;*/
+        display: flex;
+        align-items: center
+    }
+
+    .rightsection .formsection {
+        width: 100% !important;
+        margin: auto;
+        margin-bottom:5px;
+    }
+
+    .label {
+          display: grid;
+    grid-template-columns: 11fr 1fr;
+        
+    }
+
+    .about-us {
+        display: none
+    }
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 20px;
+    background-color: #25d366;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: #999 2px 2px 3px;
+    z-index: 100;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:1000;
+}
+
+.footer {
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+}
+.footer .btmborder{
+    margin: 5px 0 20px 0;
+}
+.footer li{
+    display:flex;
+    gap:5px;
+}
+.footer-sm{
+    display:flex;
+    gap:8px;
+    margin-top:8px;
+}
+.footer-contact,
+.fw-link,
+.fw-title {
+    text-align: left
+}
+
+
+.footer-widget {
+    width: 80%;
+    margin: auto;
+    text-align: left
+}
+
+.mb-30 {
+    margin-bottom: 15px
+}
+
+.mb-50 {
+    margin-bottom: 20px
+}
+
+.mt-2 {
+    margin-top: 20px
+}
+
+.footer p {
+    text-align: center;
+    color: #fff
+}
+
+.footer a {
+    text-decoration: none
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0
+}
+
+.footer {
+    margin-top: 30px;
+    background: #0f0e4d
+}
+
+.footer h3,
+.footer i {
+    color: #fff;
+    font-weight: 400
+}
+
+.copyright-text,
+.footer-trext p,
+.fw-link a {
+    color: #a6a6b5;
+    margin-bottom: 0;
+    text-align: left
+}
+
+.footer-contact ul {
+    text-align: left
+}
+
+.footer-contact ul li a {
+    color: #fff
+}
+
+.fw-links ul li {
+    text-align: left
+}
+
+.fw-links ul li a {
+    color: #a6a6b5
+}
+
+.copyright-text p {
+    color: #a6a6b5;
+    margin-bottom: 0
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 20px
+}
+
+.lists strong {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.career h3 {
+    margin-bottom: 10px;
+}
+
+.typing-container .btn {
+    background: #ffb607;
+    border: 1px solid #ffb607;
+    border-radius: 5px;
+}
+
+.rightsection h2 strong:not(:first-child) {
+    display: block;
+    margin: 10px 0;
+    
+}
+.list-arrow li strong::before{
+    content: "\f061";
+  font-family: fontawesome;
+  font-size: 13px;
+  margin-right: 15px;
+  margin-left: 5px;
+  color: #0093d8;
+  font-weight: 500;
+}
+details>summary {
+    list-style-type: ''
+}
+
+details[open]>summary {
+    list-style-type: ""
+}
+.space{
+    margin:10px 0;
+}
+
+details>summary::-webkit-details-marker {
+    display: none
+}
+
+.accordion {
+    border: 1px solid #0093d8;
+    border-radius: 5px;
+    margin-bottom: 2px
+}
+
+.faq .label {
+    color: #000
+}
+.btmheader{
+    height:120px;
+}
+.btn{padding:7px 30px!important;
+    border-radius:15px;border:1px solid #0f0e4d;
+    display:flex;
+    gap:10px;
+    align-items:center
+}
+    .navwrap{
+        display:flex;
+        justify-content:space-between;
+        padding:2px 2rem;
+        align-items:center;
+    }
+    .navmenud{
+        position:relative;
+        display:flex;
+        justify-content:space-between;
+        gap:10px;
+        width:60%
+    }
+    ul{
+        list-style: none;
+        
+    }
+    li a{
+        text-decoration: none;
+    }
+    .navmenud a{
+        color:#0f0e4d;
+        font-size:18px;
+        font-weight:500;
+        padding:9px 17px
+    }.navmenud .dropmenu a{
+        font-size:16px;
+        font-weight:500;
+        padding:7px 17px;
+        display:flex;
+        align-items:center;
+        gap:5px
+    }.navmenud a:hover{background:#ffb607;color:#0f0e4d}.dropmenu{display:none;position:absolute;top:30px;padding-top:0;z-index:100;background:#fff;box-shadow:0 0 10px rgb(0 0 0 / 28%)}.dropmenu li{display:flex;flex-direction:column;gap:10px;background-color:#0f0e4d;color:#fff}.dropmenu li a{color:#fff}.navitem:hover .dropmenu{display:block;z-index:10000}.showmob{display:none}@media (max-width:760px){.showdesk{display:none}.showmob{display:block}.mobilenav{display:flex;align-items:center;justify-content:space-between;padding:3.5rem 1rem;height:60px}.logo{height:60px}.logo img{width:100%;height:100%;object-fit:contain}.menu-btn .btn-line{width:28px;height:3px;margin:0 0 5px 0;background:#000;transition:all .5s ease-out}.menu-btn.close{transform:rotate(180deg)}.menu-btn.close .btn-line:nth-child(1){transform:rotate(45deg) translate(5px,5px)}.menu-btn.close .btn-line:nth-child(2){opacity:0}.menu-btn.close .btn-line:nth-child(3){transform:rotate(-45deg) translate(7px,-6px)}.mobiledrop{display:flex;flex-direction:column}.mobilemenu{position:absolute;top:0;left:0;right:0;bottom:0;background-color:#fff;z-index:10000;width:85%;transform:translateX(-100%);background:#0f0e4d}.mobilemenu li{padding:10px 20px;margin:.5rem 0;border-bottom:1px solid #fff;color:#fff}.opendrop{display:flex;justify-content:space-between}.opendrop::after{content: url(https://www.technobridge.in/assets/icons/new-icon/caret-w.svg);overflow: visible;
+    display: block;}.showdrop .mobiledrop .opendrop::after{content: url(https://www.technobridge.in/assets/icons/new-icon/caret-w.svg);
+    display: block;overflow: visible;}.active{transition:transform .4s ease-in-out;transform:translateX(0)}.mobilemenu{height:100vh;overflow:scroll;background:#0f0e4d}.mobilemenu a{color:#fff}.mobiledrop li{border:none}.opendrop .mobiledrop{display:none}.opendrop{position:relative}.mobiledrop{position:relative;left:-10%;top:10px;right:0}.mobiledrop li{padding:10px 0;font-size:15px;width:100%}.showdrop .mobiledrop{margin-left:-20px;display:block}}
+.desknav{
+    width: 100%;
+    background: #fff;
+    z-index: 10000;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, .3);
+    position:relative;
+}
+.fixed-desknav{
+    top:0;
+    position: fixed;
+}
+.top-nav-container{
+     display: flex;
+    list-style: none;
+    gap: 25px;
+    background-color: #061e91;
+    height: 30px;
+    align-items: center;
+    padding: 0.5rem 0;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.top-nav-container li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 1rem;
+}
+
+.top-nav-container li{
+    display: flex;
+    align-items: center;
+}
+.top-nav-container i{
+    color:#FFF;
+}
+@media(max-width:768px){
+    .top-nav-container{
+        display:none;
+    }
+    .btmheader{height:110px;}
+    .banner{
+        margin-top:0;
+    }
+}
+
+.homebanner{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Cool-nature-backgrounds-hd-resolution-1920x1080.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-img{
+    width:200px;
+}

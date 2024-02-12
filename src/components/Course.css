@@ -1,0 +1,61 @@
+/* CourseSliderWithStyles.css */
+.course-slider {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tag {
+    color: white; /* Green color for "Best Seller" tag */
+    background-color: #007bff;
+  }
+  
+  .c-title {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .starratings {
+    color: #f8d605; /* Yellow color for star ratings */
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+  }
+  
+  .c-desc {
+    color: #555;
+  }
+  
+  .btn-explore {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0f0e4d; /* Blue color for "Explore Now" button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    color: #0056b3;
+  }
+  
