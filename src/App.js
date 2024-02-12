@@ -22,7 +22,7 @@ function App() {
   return (
     <>
      <Header/>
-     {/*<Router>
+     <Router>
       <Routes>
         <Route exact path='/' element={<Home/>} index/>
         <Route exact path='/contact' element={<Contact/>}/>
@@ -35,7 +35,7 @@ function App() {
         <Route exact path='/terms' element={<TermsAndConditions/>}/>
         <Route exact path='/privacy' element={<PrivacyPolicy/>}/>
       </Routes> 
-  </Router>*/}
+  </Router>
     <WhatsApp/>
     <Footer/>
     
